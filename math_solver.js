@@ -49,4 +49,4 @@ function handleMath({ operand1, operation, operand3 }) {
   }
 }
 
-console.log(parse("127")); //7
+console.log(parse("(3 + 7 - (3 * 2)) / 4")); //1
